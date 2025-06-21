@@ -30,7 +30,6 @@ Known for our excellent service and skilled workmanship, our team is dedicated, 
 </p>
                 <div className="position-relative mt-4">
                   <img src="assets/img/2.jpg" className="img-fluid rounded-4" alt="" />
-                  <a href="" className="glightbox pulsating-play-btn"></a>
                   
                 </div>
               </div>

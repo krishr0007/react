@@ -16,28 +16,21 @@ import Staking from './staking'
 import Kitchen from './kitchen'
 import Office from './office'
 
-
 import Footer from './footer'
 import './App.css'
 import './index.css'
 
-
-
 function App() {
   return (
-    <>
-
-
-
-
-
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/home' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>
           <Route path='/Contact' element={<Contact />}></Route>
+
           <Route path='/services' element={<Services />}></Route>
-          <Route path='/home' element={<Home />}></Route>
           <Route path='/doors' element={<Doors />}></Route>
           <Route path='/openable' element={<Openable />}></Route>
           <Route path='/slider' element={<Slider />}></Route>
@@ -46,10 +39,8 @@ function App() {
           <Route path='/kitchen' element={<Kitchen />}></Route>
           <Route path='/office' element={<Office />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
-
-      <Footer />
-    </>
   );
 }
 

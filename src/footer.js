@@ -8,7 +8,7 @@ function footer() {
 <div className='container'>
       <div className="row gy-4">
         <div className="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" className="logo d-flex align-items-center">
+          <a href="/home" className="logo d-flex align-items-center">
             <span className=" sitename">Shree Harikrishna Alluminium</span>
           </a>
           <div className="footer-contact pt-3">

@@ -19,7 +19,7 @@ function office() {
             <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="250">
               <div className="content ps-0 ps-lg-5">
                 <p className="fst-italic">
-                 We have done Many project in kutch or also in Out of kutch like Ahemdabad, Vadodara, Jamnagar And rajkot Also...
+                 We use only Garanted products or we Complet Work with Customber satisfaction..
                 </p>
                 <ul>
                   <li><i className="bi bi-check-circle-fill"></i> <span>A trusted name in Market For premium aluminium section work.</span></li>
