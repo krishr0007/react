@@ -1,10 +1,9 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './header'
 import About from './about'
-import { Usestate } from 'react'
 import Services from './services'
 import Home from './home'
 import Doors from './doors'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Contact from './contact'
 import Openable from './openable'
