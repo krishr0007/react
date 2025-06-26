@@ -1,29 +1,34 @@
 function contact() {
   return (
     <>
-      <section>
-        <div className="contact-container">
-          <div className="left-col">
-            <img src='https://thumbs.dreamstime.com/b/aluminium-profile-windows-doors-manufacturing-structural-metal-shapes-profiles-texture-constructions-factory-background-166730613.jpg' alt="Shree Harikrishna Alluminium" />
-          </div>
-          <div className=" cont right-col">
-            <h1><strong>Contact us</strong></h1>
-            <p>Planning to visit Indonesia soon? Get insider tips on where to go, things to do and find best deals for your next adventure.</p>
-            <form id="contact-form" method="post">
-              <label for="name">Full name</label>
-              <input type="text" id="name" name="name" placeholder="Your Full Name" required />
-              <label for="email">Email Address</label>
-              <input type="email" id="email" name="email" placeholder="Your Email Address" required />
-              <label for="message">Message</label>
-              <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
-              <button type="submit" id="submit" name="submit">Send</button>
-            </form>
-            <div id="error"></div>
-            <div id="success-msg"></div>
-          </div>
-        </div>
-      </section>
-      <section>
+   
+        <section
+  className="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 text-white"
+  style={{ backgroundcolor: "blue"}}
+>
+  </section>
+  <div className="container pt-10 pb-10 py-md-12 text-center">
+    <div className="row">
+      <div className="col-lg-8 mx-auto">
+        <h1 className="display-1 mb-3 text-white">Contact Us</h1>
+        <nav className="d-none d-md-inline-block" aria-label="breadcrumb">
+          <ol className="breadcrumb text-white">
+            <li className="breadcrumb-item">
+              <a className="" href="/">
+                Home
+              </a>
+            </li>
+            <li className="breadcrumb-item active" aria-current="page">
+              Contact Us
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+
+    
         <h3 className='us container visit fw-bold'>Visit Us</h3>
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
@@ -44,7 +49,7 @@ function contact() {
             </div>
           </div>
         </section>
-      </section>
+
     </>
   )
 }

@@ -190,9 +190,11 @@ function home() {
                 <Card.Body>
                   <Card.Title><h3 className='products'><strong>Kitchen Cabninet</strong></h3></Card.Title>
                   <Card.Text>
-                    <p >
+                    <p>
                       In addition to using premium materials, Shree Harikrishna Aluminium offers a range of customization facilities
-                      including adjustable shelving, soft-close doors, multiple color options, and designs tailored to your space.    </p>      </Card.Text>
+                      including adjustable shelving, soft-close doors, multiple color options, and designs tailored to your space. 
+                       </p>     
+                       </Card.Text>
                 </Card.Body>
                 <Card.Footer>
                   <small className="text-muted">Last updated 3 mins ago</small>

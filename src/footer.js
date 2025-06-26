@@ -28,7 +28,7 @@ function footer() {
               <ul>
                 <li><i className="bi bi-chevron-right"></i> <a href="/home">Home</a></li>
                 <li><i className="bi bi-chevron-right"></i> <a href="/about">About us</a></li>
-                <li><i className="bi bi-chevron-right"></i> <a href="/services">Services</a></li>
+                <li><i className="bi bi-chevron-right"></i> <a href="/contact">Contact</a></li>
                 <li><i className="bi bi-chevron-right"></i> <a href="/term">Terms of service</a></li>
                 <li><i className="bi bi-chevron-right"></i> <a href="/privacy">Privacy policy</a></li>
               </ul>
@@ -50,7 +50,8 @@ function footer() {
                 <div className="max-w-6xl mx-auto">
                   <div className="bg-white rounded-lg shadow-xl overflow-hidden">
                     <div className="h-[500px] w-full">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.335550857862!2d69.64047987591634!3d23.230873508521558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511f001ee84847%3A0xc8ce5191aea243ae!2sshree%20Harikrishna%20Alluminium!5e0!3m2!1sen!2sin!4v1750488245776!5m2!1sen!2sin" width="1300" height="450" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.335550857862!2d69.64047987591634!3d23.230873508521558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511f001ee84847%3A0xc8ce5191aea243ae!2sshree%20Harikrishna%20Alluminium!5e0!3m2!1sen!2sin!4v1750488245776!5m2!1sen!2sin" width="1300" height="250" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
+                      title="Shree Harikrishna Alluminium"></iframe>
                     </div>
                   </div>
                 </div>
