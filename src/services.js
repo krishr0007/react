@@ -14,7 +14,7 @@ function services() {
             <div className="col-xl-4 col-md-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
               <div className="service-item">
                 <div className="img">
-                  <img src="assets/img/services1.jpg" className="img-fluid" alt="" />
+                  <img src="assets/img/services1.jpg" className="img-fluid" alt="Shree Harikrishna Alluminium" />
                 </div>
                 <div className="details position-relative">
                   <div className="icon">
@@ -31,7 +31,7 @@ function services() {
             <div className="col-xl-4 col-md-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
               <div className="service-item">
                 <div className="img">
-                  <img src="assets/img/door1.png" className="img-fluid" alt="" />
+                  <img src="assets/img/door1.png" className="img-fluid" alt="Shree Harikrishna Alluminium" />
                 </div>
                 <div className="details position-relative">
                   <div className="icon">
@@ -48,7 +48,7 @@ function services() {
             <div className="col-xl-4 col-md-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
               <div className="service-item">
                 <div className="img">
-                  <img src="assets/img/services3.jpg" className="img-fluid" alt="" />
+                  <img src="assets/img/services3.jpg" className="img-fluid" alt="Shree Harikrishna Alluminium" />
                 </div>
                 <div className="details position-relative">
                   <div className="icon">

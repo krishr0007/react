@@ -11,7 +11,7 @@ function office() {
             
             <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
              
-              <img src="assets/img/off.png" className="img-fluid rounded-4 mb-4" alt="" />
+              <img src="assets/img/off.png" className="img-fluid rounded-4 mb-4" alt="Shree Harikrishna Alluminium" />
               <p><h4>A wide range of aluminium office partitions </h4>is designed to create smart, organized, and professional workspaces. These partitions are available in various styles such as full-height partitions, half-height panels, glass-aluminium combinations, sliding partition systems, and modular cubicles. Made with high-quality aluminium frames, these systems can be customized with glass, plywood, or composite panels to suit the aesthetic and functional needs of any office environment. The designs are sleek, space-efficient, and allow for easy reconfiguration, making them ideal for both small offices and large corporate setups.</p>
 
 
@@ -29,7 +29,7 @@ function office() {
 Known for our excellent service and skilled workmanship, our team is dedicated, experienced, and customer-friendly. We handle all types of aluminium work with precision and care, delivering results that meet the highest standards. Our brand is widely recognized in the market for its reliability, durability, and elegant designs. At Shree Harikrishna Aluminium, we turn your vision into lasting, functional beauty with trust and quality you can count on.
 </p>
                 <div className="position-relative mt-4">
-                  <img src="assets/img/off2.png" className="img-fluid rounded-4" alt="" />
+                  <img src="assets/img/off2.png" className="img-fluid rounded-4" alt="Shree Harikrishna Alluminium" />
                  
                   </div>
                 </div>

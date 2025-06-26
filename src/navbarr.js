@@ -9,7 +9,7 @@ function navbarr() {
       <div className="container-fluid container-xl position-relative d-flex align-items-center">
       <Container>
       <Link to="/" className="logo d-flex align-items-center me-auto">
-          <img src="assets/img/new-logo.png" alt="/" />
+          <img src="assets/img/new-logo.png" alt="Shree Harikrishna Alluminium" />
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

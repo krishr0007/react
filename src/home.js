@@ -9,7 +9,7 @@ function home() {
   return (
     <>
       <div class='hero'>
-        <img src='assets/img/door2.png' />
+        <img src='assets/img/door2.png' alt='Shree Harikrishna Alluminium' />
 
      
           </div>
@@ -63,7 +63,7 @@ function home() {
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/10.jpg" alt="" class="img-fluid" />
+                <img src="assets/img/10.jpg" alt="Shree Harikrishna Alluminium" class="img-fluid" />
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ function home() {
                   consultation to help you choose the best fit for your space.
                   Whether it's for residential or commercial use, their aluminium doors are engineered for strength, low maintenance, and long-term performance.</p>   </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/13.png" alt="" class="img-fluid" />
+                <img src="assets/img/13.png" alt="Shree Harikrishna Alluminium" class="img-fluid" />
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ function home() {
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/13.jpg" alt="" class="img-fluid" />
+                <img src="assets/img/13.jpg" alt="Shree Harikrishna Alluminium" class="img-fluid" />
               </div>
             </div>
           </div>
@@ -136,7 +136,7 @@ function home() {
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/care.png" alt="" class="img-fluid" />
+                <img src="assets/img/care.png" alt="Shree Harikrishna Alluminium" class="img-fluid" />
               </div>
             </div>
           </div>

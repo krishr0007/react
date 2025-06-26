@@ -7,7 +7,7 @@ function footer() {
           <div className="row gy-4">
             <div className="col-lg-4 col-md-6 footer-about">
               <a href="/home" className="logo d-flex align-items-center">
-                <img src="assets/img/new-logo.png" alt="" />
+                <img src="assets/img/new-logo.png" alt="Shree Harikrishna Alluminium" />
               </a>
               <div className="footer-contact pt-3">
                 <p>Near Laxmi Marble, Bhuj-mirjapar Highway</p>
@@ -50,7 +50,8 @@ function footer() {
                 <div className="max-w-6xl mx-auto">
                   <div className="bg-white rounded-lg shadow-xl overflow-hidden">
                     <div className="h-[500px] w-full">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.335550857862!2d69.64047987591634!3d23.230873508521558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511f001ee84847%3A0xc8ce5191aea243ae!2sshree%20Harikrishna%20Alluminium!5e0!3m2!1sen!2sin!4v1750488245776!5m2!1sen!2sin" width="1300" height="250" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.335550857862!2d69.64047987591634!3d23.230873508521558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511f001ee84847%3A0xc8ce5191aea243ae!2sshree%20Harikrishna%20Alluminium!5e0!3m2!1sen!2sin!4v1750488245776!5m2!1sen!2sin" width="1300" height="250" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
+                      title="Shree Harikrishna Alluminium"></iframe>
                     </div>
                   </div>
                 </div>

@@ -8,7 +8,7 @@ function header() {
       <div className="container-fluid container-xl position-relative d-flex align-items-center">
 
         <Link to="/" className="logo d-flex align-items-center me-auto">
-          <img src="assets/img/new-logo.png" alt="/" />
+          <img src="assets/img/new-logo.png" alt="Shree Harikrishna Alluminium" />
         </Link>
 
         <nav id="navmenu" className="navmenu">
