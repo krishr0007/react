@@ -7,9 +7,9 @@ function tilt() {
                 <div className="container">
 
                     <div className="row gy-4">
-                        <h1 className='productss'>Tilt & Slide Windows</h1>
-
-
+                        <div className='section-title'>
+                        <h2 className='productss'><strong>Tilt & Slide Windows</strong></h2>
+</div>
                         <div className="col-lg-6  aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                             <h3>At Shree Harikrishna Aluminium </h3>
                             <img src="assets/img/tilt1.png" className="img-fluid rounded-4" alt="" />

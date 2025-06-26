@@ -2,9 +2,7 @@ import Header from './header'
 import About from './about'
 import { Usestate } from 'react'
 import Services from './services'
-import Feedback from './feedback'
 import Home from './home'
-import F from './f'
 import Doors from './doors'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -15,6 +13,8 @@ import Tilt from './tilt'
 import Staking from './staking'
 import Kitchen from './kitchen'
 import Office from './office'
+import Term from './term'
+import Privacy from './privacy'
 
 import Footer from './footer'
 import './App.css'
@@ -29,7 +29,7 @@ function App() {
           <Route path='/home' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>
           <Route path='/Contact' element={<Contact />}></Route>
-
+          <Route path='/term' element={<Term />}></Route>
           <Route path='/services' element={<Services />}></Route>
           <Route path='/doors' element={<Doors />}></Route>
           <Route path='/openable' element={<Openable />}></Route>
@@ -38,6 +38,7 @@ function App() {
           <Route path='/staking' element={<Staking />}></Route>
           <Route path='/kitchen' element={<Kitchen />}></Route>
           <Route path='/office' element={<Office />}></Route>
+          <Route path='/privacy' element={<Privacy />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

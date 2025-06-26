@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom'
 
 function header() {
   return (
-    <nav id="header" className="header d-flex align-items-center">
+    <nav id="header" className="header d-flex align-items-center fixed-top">
       <div className="container-fluid container-xl position-relative d-flex align-items-center">
 
-        <Link to="/home" className="logo d-flex align-items-center me-auto">
-          <img src="assets/img/logo-1.png" alt="" />
+        <Link to="/" className="logo d-flex align-items-center me-auto">
+          <img src="assets/img/new-logo.png" alt="/" />
         </Link>
 
         <nav id="navmenu" className="navmenu">
           <ul>
-            <li><Link to="/home" className="active">Home</Link></li>
+            <li><Link to="/home">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/services">Services</Link></li>
             <li className="dropdown"><Link to="#"><span>Our products</span> <i className="bi bi-chevron-down toggle-dropdown"></i></Link>

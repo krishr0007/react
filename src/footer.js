@@ -5,11 +5,11 @@ function footer() {
     <div>
       <footer id="footer" className="footer dark-background">
 
-<div className='container'>
+<div className=' foot container'>
       <div className="row gy-4">
         <div className="col-lg-4 col-md-6 footer-about">
           <a href="/home" className="logo d-flex align-items-center">
-            <span className=" sitename">Shree Harikrishna Alluminium</span>
+          <img src="assets/img/new-logo.png" alt="" />
           </a>
           <div className="footer-contact pt-3">
             <p>Near Laxmi Marble, Bhuj-mirjapar Highway</p>
@@ -31,8 +31,8 @@ function footer() {
             <li><i className="bi bi-chevron-right"></i> <a href="/home">Home</a></li>
             <li><i className="bi bi-chevron-right"></i> <a href="/about">About us</a></li>
             <li><i className="bi bi-chevron-right"></i> <a href="/services">Services</a></li>
-            <li><i className="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i className="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            <li><i className="bi bi-chevron-right"></i> <a href="/term">Terms of service</a></li>
+            <li><i className="bi bi-chevron-right"></i> <a href="/privacy">Privacy policy</a></li>
           </ul>
         </div>
 
@@ -41,24 +41,26 @@ function footer() {
           <ul>
             <li><i className="bi bi-chevron-right"></i> <a href="/openable">openable Window</a></li>
             <li><i className="bi bi-chevron-right"></i> <a href="/Slider">Slider Window</a></li>
-            <li><i className="bi bi-chevron-right"></i> <a href="/door">Door's</a></li>
+            <li><i className="bi bi-chevron-right"></i> <a href="/doors">Door's</a></li>
             <li><i className="bi bi-chevron-right"></i> <a href="/kitchen">Kitchen Cabinet</a></li>
             <li><i className="bi bi-chevron-right"></i> <a href="/office">Office partition</a></li>
           </ul>
         </div>
-
-        <div className="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our </h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" className="php-email-form">
-            <div className="newsletter-form">
-                <input type="email" name="email" /><input type="submit" value="Subscribe" />
-            <div className="loading">Loading</div>
-            <div className="error-message"></div>
-            <div className="sent-message">Your subscription request has been sent. Thank you!</div>
-         
+        
+<section className="col-lg-4 col-md- ">
+        <div className="container mx-auto px-2">
+          <div className="max-w-6xl mx-auto">
+            <div className="bg-white rounded-lg shadow-xl overflow-hidden">
+              <div className="h-[500px] w-full">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.335550857862!2d69.64047987591634!3d23.230873508521558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511f001ee84847%3A0xc8ce5191aea243ae!2sshree%20Harikrishna%20Alluminium!5e0!3m2!1sen!2sin!4v1750488245776!5m2!1sen!2sin" width="1300" height="250" allowFullScreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+       
+             
+              </div>
+            </div>
+      
         </div>
-</form>
+      </section>
       </div>
     </div>
 
@@ -68,7 +70,7 @@ function footer() {
  
       </div>
   
-</div>
+
   </footer>
   
     </div>

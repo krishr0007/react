@@ -4,9 +4,9 @@ function office() {
   return (
     <div>
           <div className="container">
-<div className='productee'>
           <div className="row gy-4">
-            <h1 className='product'>Primiuim Office Partition By,</h1>
+<div className='section-title'>
+            <h2 className='producet'><strong>Primiuim Office Partition By,</strong></h2></div>
 <h3>Shree Harikrishna Alluminium </h3>            
             
             <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
@@ -38,7 +38,6 @@ Known for our excellent service and skilled workmanship, our team is dedicated, 
           </div>
     </div>
       
-    </div>
   )
 }
 

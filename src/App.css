@@ -6,7 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -15,7 +18,7 @@
 .con{
   margin-top: 90px;
   height: 940px;
-}
+}̀̀
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -81,27 +84,50 @@
 }
 .choose{
   padding-bottom: 10px;
-    text-shadow: 0 0 3px #FF0000;
     margin-top: 30px;
 }
-.span{
-  color: #FF0000;
+.about{
+  margin-top: 90px;
+}
+.imgg{
+  height: 350px;
+}
+.privacy{
+  margin-top: 150px;
+}
+.producet{
+  margin-top: 150px;
 }
 .product{
-  margin-top: 90px;
- text-shadow: 5px 5px 10px rgb(182, 28, 28);
+  margin-top: 10px;
 }
-.products{
- text-shadow: 5px 5px 10px rgb(147, 208, 201);
+.produc{
+  margin-top: 200px;
 }
+.our{
+  margin-top: 50px;
+}
+
+
+.product h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 165px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  right: 0;
+  bottom: 0;
+ margin-bottom: 650px;
+ margin-left: 90px;
+}
+
 .productss{
   margin-top: 150px;
-text-shadow: 5px 5px 3px red;
 }
 .productsss{
     margin-top: 150px;
-  text-shadow: 5px 5px 10px rgb(94, 209, 174);
-
 }
 .crs{
   margin-top: 100px;
@@ -110,14 +136,17 @@ text-shadow: 5px 5px 3px red;
   margin-left: 400px;
   height: 500px;
   position:flex;
-  
+}
+.terms{
+  margin-top: 150px;
+  /* margin-bottom: 1500px; */
 }
 .dr{
    padding-left: 50px;
    height: 600px;
 }
 .producte{
-  
+  margin-top: 100px;
    text-shadow: 5px 5px 3px red;
 
 }
@@ -133,10 +162,7 @@ text-shadow: 5px 5px 3px red;
   margin-top: 100px;
   height: 700px;
 } */
-.our{
-   text-shadow: 5px 5px 3px red;
 
-}
 .story{
   margin-left: 600px;
 }
@@ -162,13 +188,14 @@ text-shadow: 5px 5px 3px red;
   /* width: 100vw; */
   height: 100vh;
   background: var(--bg-color);
-
+margin-top: 10px;
 }
 
 .contact-container {
 .left-col {
   width: 45vw;
   height: 100%;
+  margin-top: 20px;
   background-image: url("https://thumbs.dreamstime.com/b/aluminium-profile-windows-doors-manufacturing-structural-metal-shapes-profiles-texture-constructions-factory-background-166730613.jpg");
   background-size: cover;
   background-repeat: no-repeat;

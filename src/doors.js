@@ -4,17 +4,16 @@ function doors() {
   return (
     <>
       <div className='crs'>
-        <Carousel data-bs-theme="dark">
+        <Carousel data-bs-theme="dark" slide={false}>
           <Carousel.Item>
 
             <img
               className="d-block w-100"
-              src="assets/img/door1.png"
+              src="assets/img/door2.png"
               alt="First slide"
             />
             <Carousel.Caption>
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+             
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -24,8 +23,7 @@ function doors() {
               alt="Second slide"
             />
             <Carousel.Caption>
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -35,23 +33,19 @@ function doors() {
               alt="Third slide"
             />
             <Carousel.Caption>
-              <h5>Third slide label</h5>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+           
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
 </div>
         <div className='dr'>
-          <h1><strong>A premium Door's By</strong></h1><h3>Shree Harikrishna Alluminium</h3>
+          <div className='section-title'>
+          <h2><strong>A premium Door's By</strong></h2></div>
+          <h3>Shree Harikrishna Alluminium</h3>
           <p>
-            a wide range of aluminium doors is expertly crafted to suit both residential and commercial needs. The company offers various door styles including sliding doors, hinged doors,<br></br> bi-fold doors, and partition doors, all designed for durability, strength, and aesthetic appeal. Each door is engineered using high-grade aluminium combined with plywood panels,<br></br> offering a modern look with enhanced insulation, stability, and soundproofing. The combination of aluminium and plywood provides a perfect balance between lightweight structure <br></br>and robust performance, making these doors ideal for homes, offices, showrooms, and more.
+            A wide range of aluminium doors is expertly crafted to suit both residential and commercial needs. The company offers various door styles including sliding doors, hinged doors,<br></br> bi-fold doors, and partition doors, all designed for durability, strength, and aesthetic appeal. Each door is engineered using high-grade aluminium combined with plywood panels,<br></br> offering a modern look with enhanced insulation, stability, and soundproofing. The combination of aluminium and plywood provides a perfect balance between lightweight structure <br></br>and robust performance, making these doors ideal for homes, offices, showrooms, and more.
           </p>
        
-      
-
-
       <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="250">
         <div className="content ps-0 ps-lg-5">
           <p className="fst-italic">
