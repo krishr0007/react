@@ -4,12 +4,11 @@ function contact() {
       <section>
         <div className="contact-container">
           <div className="left-col">
-            {/* <img src='https://thumbs.dreamstime.com/b/aluminium-profile-windows-doors-manufacturing-structural-metal-shapes-profiles-texture-constructions-factory-background-166730613.jpg'/> */}
+            <img src='https://thumbs.dreamstime.com/b/aluminium-profile-windows-doors-manufacturing-structural-metal-shapes-profiles-texture-constructions-factory-background-166730613.jpg'/>
           </div>
           <div className=" cont right-col">
             <h1><strong>Contact us</strong></h1>
             <p>Planning to visit Indonesia soon? Get insider tips on where to go, things to do and find best deals for your next adventure.</p>
-
             <form id="contact-form" method="post">
               <label for="name">Full name</label>
               <input type="text" id="name" name="name" placeholder="Your Full Name" required />
@@ -31,7 +30,7 @@ function contact() {
             <div className="max-w-6xl mx-auto">
               <div className="bg-white rounded-lg shadow-xl overflow-hidden">
                 <div className="h-[500px] w-full">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.335550857862!2d69.64047987591634!3d23.230873508521558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511f001ee84847%3A0xc8ce5191aea243ae!2sshree%20Harikrishna%20Alluminium!5e0!3m2!1sen!2sin!4v1750488245776!5m2!1sen!2sin" width="1300" height="450" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.335550857862!2d69.64047987591634!3d23.230873508521558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511f001ee84847%3A0xc8ce5191aea243ae!2sshree%20Harikrishna%20Alluminium!5e0!3m2!1sen!2sin!4v1750488245776!5m2!1sen!2sin" width="1300" height="450" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                 </div>
                 <div className="p-6 bg-white">
                   <h3 className="text-xl font-bold text-secondary-800 mb-2">Find Us</h3>
