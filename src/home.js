@@ -1,6 +1,5 @@
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom'
-
 import CountUp from './components/CountUp'
 import Button from 'react-bootstrap/Button';
 
@@ -11,7 +10,6 @@ function home() {
       <div class='hero'>
         <img src='assets/img/door2.png' alt='Shree Harikrishna Alluminium' />
       </div>
-
       <div class="container py-10 features">
         <ul class="nav nav-tabs row d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" role="tablist">
           <li class="nav-item col-3" role="presentation">
@@ -39,7 +37,6 @@ function home() {
             </a>
           </li>
         </ul>
-
         <div class="tab-content aos-init aos-animate success" data-aos="fade-up" data-aos-delay="200">
           <div class="tab-pane fade" id="features-tab-1" role="tabpanel">
             <div class="row">
@@ -64,7 +61,6 @@ function home() {
               </div>
             </div>
           </div>
-
           <div class="tab-pane fade" id="features-tab-2" role="tabpanel">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
@@ -72,7 +68,6 @@ function home() {
                 <p >
                   Shree Harikrishna Aluminium is a trusted name in the industry, offering top-quality aluminium doors that combine durability, style, and security. Known for using only original and high-grade aluminium products, the company ensures every door is built to last while maintaining a sleek, modern look.
                 </p>
-
                 <ul>
                   <li><i class="bi bi-check2-all"></i> <span>Offering top-quality aluminium doors</span></li>
                   <li><i class="bi bi-check2-all"></i> <span> Only Trusted products used </span></li>
@@ -87,7 +82,6 @@ function home() {
               </div>
             </div>
           </div>
-
           <div class="tab-pane fade active show" id="features-tab-3" role="tabpanel">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
@@ -98,10 +92,7 @@ function home() {
                 <ul>
                   <li><i class="bi bi-check2-all"></i> <span>The company guarantees a seamless and satisfying experience from start to finish.
 
-
-
-
-                    .</span></li>
+                  </span></li>
                   <li><i class="bi bi-check2-all"></i> <span>Their cabinets are termite-proof, rust-resistant, and easy to clean.</span></li>
                   <li><i class="bi bi-check2-all"></i> <span>With expert design support and professional installation services.</span></li>
                 </ul>
