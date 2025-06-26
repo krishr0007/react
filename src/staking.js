@@ -3,12 +3,12 @@ import React from 'react'
 function staking() {
   return (
     <div>
-        <div>
-  <div className="container">
+      <div>
+        <div className="container">
           <div className="row gy-4">
-<div className='section-title'>
+            <div className='section-title'>
               <h2 className='productss'><strong>Stacking Windows</strong></h2>
-        </div>
+            </div>
 
             <div className="col-lg-6  aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
               <h3>At Shree Harikrishna Aluminium </h3>
@@ -23,7 +23,7 @@ function staking() {
             <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="250">
               <div className="content ps-0 ps-lg-5">
                 <p className="fst-italic">
-<h3>Shree Harikrishna Aluminium specializes</h3>the aluminium stacking window system is designed for wide openings where maximum ventilation and unobstructed views are desired. These windows operate by sliding multiple panels behind one another or into a wall cavity, creating a seamless transition between indoor and outdoor spaces. Ideal for modern homes, showrooms, and commercial buildings, stacking windows are engineered with smooth-gliding rollers and durable tracks to ensure effortless operation, even with large, heavy panels.              </p>
+                  <h3>Shree Harikrishna Aluminium specializes</h3>the aluminium stacking window system is designed for wide openings where maximum ventilation and unobstructed views are desired. These windows operate by sliding multiple panels behind one another or into a wall cavity, creating a seamless transition between indoor and outdoor spaces. Ideal for modern homes, showrooms, and commercial buildings, stacking windows are engineered with smooth-gliding rollers and durable tracks to ensure effortless operation, even with large, heavy panels.              </p>
                 <ul>
                   <li><i className="bi bi-check-circle-fill" style={{ color: '#0000FF' }}></i> <span>To meet aesthetic and environmental demands, Shree Harikrishna Aluminium offers powder coating and anodizing finishes for stacking windows. Powder coating adds a protective, weather-resistant layer available in a wide range of colors, enhancing both appearance and durability.</span></li>
                   <li><i className="bi bi-check-circle-fill" style={{ color: '#0000FF' }}></i> <span>These finishing options ensure that stacking windows not only function flawlessly but also maintain their appearance and strength over time, even in coastal or high-humidity environments.</span></li>
@@ -33,14 +33,12 @@ Known for our excellent service and skilled workmanship, our team is dedicated, 
 </p> */}
                 <div className="position-relative mt-6">
                   <img src="assets/img/stak2.png" className="img-fluid rounded-4" alt="" />
-                  <a href=""></a>\
-                  
                 </div>
               </div>
             </div>
           </div>
+        </div>
       </div>
-    </div>
     </div>
   )
 }

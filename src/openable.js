@@ -32,8 +32,6 @@ Known for our excellent service and skilled workmanship, our team is dedicated, 
 </p> */}
                 <div className="position-relative mt-6">
                   <img src="assets/img/window.png" className="img-fluid rounded-4" alt="" />
-                  <a href=""></a>\
-                  
                 </div>
               </div>
             </div>

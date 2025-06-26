@@ -8,8 +8,8 @@ function tilt() {
 
                     <div className="row gy-4">
                         <div className='section-title'>
-                        <h2 className='productss'><strong>Tilt & Slide Windows</strong></h2>
-</div>
+                            <h2 className='productss'><strong>Tilt & Slide Windows</strong></h2>
+                        </div>
                         <div className="col-lg-6  aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                             <h3>At Shree Harikrishna Aluminium </h3>
                             <img src="assets/img/tilt1.png" className="img-fluid rounded-4" alt="" />
@@ -39,8 +39,6 @@ Known for our excellent service and skilled workmanship, our team is dedicated, 
 </p> */}
                                 <div className="position-relative mt-6">
                                     <img src="assets/img/tilt2.png" className="img-fluid rounded-8" alt="" />
-                                    <a href=""></a>\
-
                                 </div>
                             </div>
                         </div>
